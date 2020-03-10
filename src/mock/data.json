@@ -1,0 +1,110 @@
+{
+    "home": {
+        "Data": {
+            "Swipers": [
+                {
+                    "Id": 3,
+                    "TargetId": "0",
+                    "TargetType": 0,
+                    "ImageAddress": "http://static.huizhifu.ltd/Statics/GlobalBuy/ComSwiperImages/3/45c5247a43094b34b9c2d18dfe5dde79.jpg"
+                },
+                {
+                    "Id": 2,
+                    "TargetId": "0",
+                    "TargetType": 0,
+                    "ImageAddress": "http://static.huizhifu.ltd/Statics/GlobalBuy/ComSwiperImages/2/0db831eabde748758ce283b70fb2783c.jpg"
+                },
+                {
+                    "Id": 1,
+                    "TargetId": "0",
+                    "TargetType": 0,
+                    "ImageAddress": "http://static.huizhifu.ltd/Statics/GlobalBuy/ComSwiperImages/1/851d805fb18c46c5b91a53d35257565a.jpg"
+                }
+            ],
+            "NewNotice": false,
+            "Singed": false,
+            "Recommends": [],
+            "Products": [
+                {
+                    "Id": 55,
+                    "Title": "【微信】泰国百货攻略",
+                    "Price": 1395.00,
+                    "Simple": "THB",
+                    "Symbolize": "THB",
+                    "MaxQueueCount": 2,
+                    "ImageAddress": "http://static.huizhifu.ltd/Statics/GlobalBuy/CreditProImages/55/23e6adae917a49c481af12039428fa5c.jpg",
+                    "QueueCount": 0
+                },
+                {
+                    "Id": 54,
+                    "Title": "【微信】泰国购物攻略",
+                    "Price": 1288.00,
+                    "Simple": "THB",
+                    "Symbolize": "THB",
+                    "MaxQueueCount": 2,
+                    "ImageAddress": "http://static.huizhifu.ltd/Statics/GlobalBuy/CreditProImages/54/aa600845bec74c32b2441400cb93762c.jpg",
+                    "QueueCount": 0
+                },
+                {
+                    "Id": 44,
+                    "Title": "【支付宝】泰国百货攻略",
+                    "Price": 1385.00,
+                    "Simple": "THB",
+                    "Symbolize": "THB",
+                    "MaxQueueCount": 2,
+                    "ImageAddress": "http://static.huizhifu.ltd/Statics/GlobalBuy/CreditProImages/44/8a7bcac47cbb42ccb85fdb7ad6c2bb88.jpg",
+                    "QueueCount": 0
+                },
+                {
+                    "Id": 43,
+                    "Title": "【支付宝】泰国购物攻略",
+                    "Price": 1276.00,
+                    "Simple": "THB",
+                    "Symbolize": "THB",
+                    "MaxQueueCount": 2,
+                    "ImageAddress": "http://static.huizhifu.ltd/Statics/GlobalBuy/CreditProImages/43/932302f230f24ce2954403efc7822f71.jpg",
+                    "QueueCount": 1
+                },
+                {
+                    "Id": 42,
+                    "Title": "Z蝶形护肩乳胶枕",
+                    "Price": 101750.00,
+                    "Simple": "KRW",
+                    "Symbolize": "KRW",
+                    "MaxQueueCount": 2,
+                    "ImageAddress": "http://static.huizhifu.ltd/Statics/GlobalBuy/CreditProImages/42/46f81dcd9005465881379ce803d2e8db.jpg",
+                    "QueueCount": 2
+                },
+                {
+                    "Id": 41,
+                    "Title": "Z高低颈椎舒缓乳胶枕",
+                    "Price": 101748.00,
+                    "Simple": "KRW",
+                    "Symbolize": "KRW",
+                    "MaxQueueCount": 2,
+                    "ImageAddress": "http://static.huizhifu.ltd/Statics/GlobalBuy/CreditProImages/41/f07a53a1ed174527aac9ba7964983244.jpg",
+                    "QueueCount": 2
+                }
+            ],
+            "ComNotices": [
+                {
+                    "Id": 23,
+                    "Title": "【春节期间工作时间调整公告】"
+                },
+                {
+                    "Id": 22,
+                    "Title": "【工作时间调整公告】"
+                },
+                {
+                    "Id": 19,
+                    "Title": "【泰国】例行维护提前完成，正常交易"
+                }
+            ]
+        },
+        "Error": false,
+        "Status": 1,
+        "Code": "200",
+        "Msg": "ok",
+        "Exts": {}
+    }
+}

@@ -10,21 +10,28 @@
 
 <script>
 import roof from "./../../components/roof/roof";
-import {funs} from './../../api'
+import { funs, getHomeDataAjax } from "./../../api";
 
 export default {
   components: { roof },
   template: " <roof />",
-  mounted(){
-     funs('musicRankings').then((s)=>{
-       console.log(s);
-     });
+  mounted() {
+    // this.getData();
+    getHomeDataAjax().then(success => {
+      console.log(success);
+    });
+  },
+  methods: {
+    // async getData() {
+    //   let data = await ajaxs("/home");
+    //   console.log(data);
+    // }
   }
 };
 </script>
 
 <style>
-.left-icon{
+.left-icon {
   font-weight: bold;
 }
 </style>

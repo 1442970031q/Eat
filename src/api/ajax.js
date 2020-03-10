@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-export default function (url, param = {}, type = "GET") {
+export default function (url, type = "POST", param = {}) {
     let promise;
     if (type === "GET") {
         let urlStr = '';
@@ -8,9 +8,9 @@ export default function (url, param = {}, type = "GET") {
         obj.forEach((key, index) => {
             urlStr += key + '=' + param[key] + '&';
         });
-        if (obj.length>0) {
+        if (obj.length > 0) {
             urlStr = urlStr.substring(0, urlStr.lastIndexOf('&'));
-            url=url+'?'+urlStr;
+            url = url + '?' + urlStr;
         }
 
         promise = axios.get(url);
@@ -30,7 +30,7 @@ export default function (url, param = {}, type = "GET") {
                 rej(error);
             }
         )
-    });
+    })
 
     return ajax
 }
