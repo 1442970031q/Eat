@@ -1,13 +1,17 @@
 <template>
   <div>
-      search
+    <roof  title="订单">
+    </roof>
   </div>
 </template>
 
 <script>
-export default {
+import roof from "./../../components/roof/roof";
 
-}
+export default {
+  components: { roof },
+  template: " <roof />"
+};
 </script>
 
 <style>

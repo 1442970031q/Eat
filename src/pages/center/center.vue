@@ -1,15 +1,17 @@
 <template>
   <div>
-     center
+    <roof  title="我的" />
   </div>
 </template>
 
 <script>
-export default {
+import roof from "./../../components/roof/roof";
 
-}
+export default {
+  components: { roof },
+  template: " <roof />"
+};
 </script>
 
 <style>
-
 </style>
